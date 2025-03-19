@@ -1,11 +1,151 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Landing - 3 - emp</title>
+	<title>Tu Solución Innovadora</title>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/styles.css">
+	<script type="importmap">
+    {
+        "imports": {
+            "gsap": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        }
+    }
+    </script>
 </head>
+
 <body>
-	
+	<header>
+		<nav>
+			<div class="logo">InnoSolution</div>
+			<ul>
+				<li><a href="#caracteristicas">Características</a></li>
+				<li><a href="#beneficios">Beneficios</a></li>
+				<li><a href="#precio">Planes</a></li>
+				<li><a href="#contacto">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section class="hero">
+			<div class="hero-content">
+				<h1>Transforma Tu Mundo con Soluciones Innovadoras</h1>
+				<p>Descubre la tecnología que revolucionará tu forma de trabajar y vivir</p>
+				<a href="#comprar" class="cta-button">Descubre Más</a>
+			</div>
+			<div class="hero-image">
+				<svg viewBox="0 0 500 500">
+					<circle cx="250" cy="250" r="230" fill="url(#gradient)" />
+					<defs>
+						<linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+							<stop offset="0%" style="stop-color:#6a11cb;stop-opacity:0.7" />
+							<stop offset="100%" style="stop-color:#2575fc;stop-opacity:0.7" />
+						</linearGradient>
+					</defs>
+				</svg>
+			</div>
+		</section>
+
+		<section id="caracteristicas" class="features">
+			<h2>Características Revolucionarias</h2>
+			<div class="feature-grid">
+				<div class="feature">
+					<div class="feature-icon">🌐</div>
+					<h3>Conectividad Global</h3>
+					<p>Solución que te conecta con el mundo de manera instantánea y eficiente</p>
+				</div>
+				<div class="feature">
+					<div class="feature-icon">⚡</div>
+					<h3>Alta Eficiencia</h3>
+					<p>Optimiza tus procesos con tecnología de vanguardia</p>
+				</div>
+				<div class="feature">
+					<div class="feature-icon">🔒</div>
+					<h3>Seguridad Total</h3>
+					<p>Protección de última generación para tu información</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="precio" class="pricing">
+			<h2>Elige tu Plan</h2>
+			<div class="pricing-cards">
+				<div class="pricing-card">
+					<h3>Básico</h3>
+					<div class="price">$29.99</div>
+					<ul>
+						<li>Característica A</li>
+						<li>Característica B</li>
+					</ul>
+					<a href="#" class="buy-button">Comprar</a>
+				</div>
+				<div class="pricing-card destacado">
+					<h3>Premium</h3>
+					<div class="price">$59.99</div>
+					<ul>
+						<li>Todas características Básicas</li>
+						<li>Característica Exclusiva</li>
+						<li>Soporte Prioritario</li>
+					</ul>
+					<a href="#" class="buy-button">Comprar</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="testimonials">
+			<h2>Lo Que Dicen Nuestros Clientes</h2>
+			<div class="testimonial-slider">
+				<div class="testimonial">
+					<p>"¡Increíble producto que cambió mi vida!"</p>
+					<span>- María G.</span>
+				</div>
+			</div>
+		</section>
+
+		<section id="beneficios" class="benefits">
+			<h2>Beneficios de Nuestro Producto</h2>
+			<div class="benefit-grid">
+				<div class="benefit">
+					<div class="benefit-icon">💼</div>
+					<h3>Aumenta tu Productividad</h3>
+					<p>Con nuestra solución, podrás gestionar tus tareas de manera más eficiente</p>
+				</div>
+				<div class="benefit">
+					<div class="benefit-icon">📈</div>
+					<h3>Mejora tus Resultados</h3>
+					<p>Nuestra tecnología te ayudará a alcanzar tus objetivos de manera más efectiva</p>
+				</div>
+				<div class="benefit">
+					<div class="benefit-icon">👥</div>
+					<h3>Fortalece tus Relaciones</h3>
+					<p>Con nuestra solución, podrás comunicarte de manera más efectiva con tus colegas y clientes</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="contacto" class="contact">
+			<h2>Contáctanos</h2>
+			<p>Email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__"
+					data-cfemail="03606c6d776260776c437776666e73716670622d606c6e">[email&#160;protected]</a></p>
+			<p>Teléfono: +54 123 456 7890</p>
+		</section>
+	</main>
+
+	<footer>
+		<div class="social-links">
+			<a href="#">Facebook</a>
+			<a href="#">Instagram</a>
+			<a href="#">Twitter</a>
+		</div>
+		<div class="copyright">
+			© 2023 Tu Empresa. Todos los derechos reservados.
+		</div>
+	</footer>
+
+	<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+	<script type="module" src="assets/js/scripts.js"></script>
 </body>
+
 </html>
