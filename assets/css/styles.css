@@ -202,7 +202,12 @@ main {
     width: 300px;
 }
 
-.pricing-card.destacado {
+.pricing-card ul li {
+    list-style: none;
+    text-align: left;
+}
+
+.pricing-card:hover {
     transform: scale(1.05);
     border: 2px solid var(--primary-color);
 }
